@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+}
+
+h1 {
+  color: #6c63ff;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.78px;
+  text-transform: uppercase;
+}
+
+button {
+  width: 136px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #6c63ff;
+  margin: 20px;
+}
+.signUpsmg {
+  color: #9c9ab6;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main {
+  padding: 70px 0;
+  text-align: center;
+  margin: 10vh;
+  display: flex;
+  width: 100vh;
+}
+.counter {
+  width: 100vh;
+  height: 172px;
+  flex-shrink: 0;
+}
+.SVGcontainer {
+  padding: 70px 0;
+  text-align: center;
+  margin: 10vh;
+}
+svg {
+  width: 607.01px;
+  height: 388.997px;
+  flex-shrink: 0;
+  fill: #6c63ff;
+  stroke-width: 1px;
+  stroke: #000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Timer {
+    display: flex;
+    margin-bottom: 10vh;
+    width: 100vh;
+}
+.Timer div {
+    flex-basis: 100px;
+}
+.Timer div p {
+    font-size: 60px;
+    margin-bottom: 14px;
+}
+
